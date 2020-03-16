@@ -20,12 +20,27 @@ You will need a Github account.
     website.  It is here on Github:
     [`https://github.com/phildini/stayinghomeclub`](https://github.com/phildini/stayinghomeclub).
 
-1. Find the `companies.yml` file, and click the "Edit" button.  Here's
-   a [direct link to the Edit
-   page](https://github.com/phildini/stayinghomeclub/edit/master/_data/companies.yml).
+1. You will need to create a YML file [in the `companies`
+   directory](https://github.com/phildini/stayinghomeclub/tree/master/_data/companies).
+   Navigate there, and click the "Create new file" button.  Here's a
+   [direct link to the Create
+   page](https://github.com/phildini/stayinghomeclub/new/master/_data/companies).
 
-1. Add your company, or update its details if something has changed.  Please try
-   to put your new entry in roughly alphabetical order, by name, relative to existing companies.
+   Or, if you're just updating an existing entry, click on it, then
+   hit the "Edit" button.
+
+1. Give the file a name, something like `google.yml` or `envato.yml`
+   or `ing.yml`, no fancy characters, and be sure to end it with
+   **.yml**. Add the details about your company in this format:
+
+      ```yaml
+      name: Your company name
+      wfh: Strongly Encouraged
+      travel: Restricted
+      visitors: Restricted
+      events: Restricted
+      last_update: 2020-03-13
+      ```
 
 1. Click "Propose File Change", the big green button at the bottom of
    the page.
